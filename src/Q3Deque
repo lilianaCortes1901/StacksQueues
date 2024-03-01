@@ -1,0 +1,10 @@
+Question: Given a Deque q and element y, provide an algorithm
+that finds the position in the deque in which element x is stored
+in O(n/2)
+
+Notes: Double-ended queue where items can be inserted and removed at both the front
+and back.
+- push-front: inserts an item at the front
+- push-back: inserts at the back
+- pop-front: removed and returns the item at the front
+- pop-back: removed and returns the item at the back

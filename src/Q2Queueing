@@ -1,0 +1,23 @@
+Question: Given empty queue, what will be in the stack after
+the following operations?
+
+a) push(1) - enqueue(queue, 1)
+    Stack: 1
+b) push(pop()+6) - pop() perform first, add 6, push result to stack
+    pop(stack) Return: 1; Stack: empty
+    push(1+6)
+    Stack: 7
+c) push(18) - enqueue(queue, 18)
+    Stack: 7, 18
+d) push(pop()/2) - pop perform first, divide by 2, push result to stack
+    pop(stack) Return: 7; Stack: 18
+    push(7/2)
+    Stack: 18, 3.5
+e) pop()
+    Return: 18; Stack: 3.5
+f) pop()
+    Return: 3.5; Stack: empty
+
+
+Queue - items are inserted at the end of the queue and removed
+from the front of the queue

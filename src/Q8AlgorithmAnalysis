@@ -1,0 +1,17 @@
+Question: For each algorithm, explain their time complexity and space
+complexity using Big-O notation. Explain how you arrived at your answer.
+
+Q4:
+    Let n be the length of string parameter for stack.
+    Time Complexity: O(n), two separate loops that are not nested into each other.
+    Space Complexity: O(n), depending on the elements inside the string of the stack
+
+Q5:
+    Let n be the length of string parameter String a
+    Time Complexity: O(n), use one for loop to run through the String and add to the Queue
+    Space Complexity: O(1), constant time
+
+Q6:
+    Let n be the length of string parameter for RNA strand
+    Time Complexity: O(n), use one for loop to iterate through the RNA strand
+    Space Complexity: O(1), constant time

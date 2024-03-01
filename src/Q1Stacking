@@ -1,0 +1,23 @@
+Question: Given an empty stack, what will be in the stack after
+the following operations?
+
+a) push(3)
+    Stack: 3
+b) push(4)
+    Stack: 4, 3
+c) pop() - returns and removes item top of stack
+    Returns: 4; Stack: 3
+d) push(pop()*5) - perform pop() first, multiply by 5 then move to top of stack
+    pop(stack) Return: 3; Stack: empty
+    push(3*5)
+    Stack: 15
+e) push(10)
+    Stack: 10, 15
+f) push(pop()/4) - perform pop() first, divide by 4, then move to top of stack
+    pop(stack) Return: 10; Stack: 15
+    push(10/4)
+    Stack: 2.5, 15
+
+ Stack is implemented using linked list:
+ - list's head node being the stack's top
+ - push is performed by creating a new list node
